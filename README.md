@@ -14,18 +14,18 @@ This project was created to learn V lang basics, as well as common use cases sim
 
 # Experiments
 
-[] Create a locale package, module, or library and utilize.
-[] Leverage vpm package manager for 3rd party packages.
-[] Read from environmental variables.
-[] Read from a file in a local directory.
-[] Create a basic DTO (data transfer object).
-[] Marshal and unmarshal DTO to string and V struct.
-[] Expose REST endpoints for experiment application.
-[] Create a service description for my RESt endpoints, following the HATEOAS model.
-[] Handle multiple different HTTP verbs.
-[] Dockerize application (include 3rd party packages).
-[] Create unit tests and execute on a CI/CD platform.
-[] Connect to a relational database (Postgres).
+* [] Create a locale package, module, or library and utilize.
+* [] Leverage vpm package manager for 3rd party packages.
+* [] Read from environmental variables.
+* [] Read from a file in a local directory.
+* [] Create a basic DTO (data transfer object).
+* [] Marshal and unmarshal DTO to string and V struct.
+* [] Expose REST endpoints for experiment application.
+* [] Create a service description for my RESt endpoints, following the HATEOAS model.
+* [] Handle multiple different HTTP verbs.
+* [] Dockerize application (include 3rd party packages).
+* [] Create unit tests and execute on a CI/CD platform.
+* [] Connect to a relational database (Postgres).
 
 # What I've Learned
 
