@@ -8,7 +8,8 @@ This project was created to learn V lang basics, as well as common use cases sim
 * [structs.v]() - TBD
 * [error.v]() - TBD
 * [io.v]() - TBD
-* [list.v]() - TBD
+* [maps.v]() - TBD
+* [array.v]() - TBD
 * [num.v]() - TBD
 * [string.v]() - TBD
 
@@ -30,10 +31,20 @@ This project was created to learn V lang basics, as well as common use cases sim
 # What I've Learned
 
 * V has very specific use cases, it's not a widely adopted language.
+* V is a very new language, new features are being implemented every week.
+  * Equality checks for Arrays are still not yet implemented (as of 12/8/19).
+  * Maps only currently support string keys.
 * It's similar to Go and is also influenced by Oberon, Rust, Swift.
 * V is a compiled language, that compiles down into byte code so it can run on any machine.
 * Not garbage collected, similar to Rust memory must be managed at compile time.
 * Fast, can compile around 1.2 million lines of code per second per CPU core (of an i5-7500).
+* API is not yet that robust, certainly still in it's infancy stages. (using V for everyday tasks may not be viable)
+* V is type a statically typed, type strict language.
+  * Types are inferred upon instantiation.
+  * Variables of a given type cannot be set to a different variable type once intantiated.
+  * Arrays and sets are also type strict.
+* Variables are immutable by default, once inferred they cannot be modified.
+  * Mutable variables must be denoted by the keyword `mut`.
 
 # Closing Thoughts
 
