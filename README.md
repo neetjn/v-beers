@@ -43,6 +43,7 @@ This project was created to learn V lang basics, as well as common use cases sim
   * Types are inferred upon instantiation.
   * Variables of a given type cannot be set to a different variable type once intantiated.
   * Arrays and sets are also type strict.
+  * Unfortunately, maps are restricted to a single node type they're inferred by.
 * Variables are immutable by default, once inferred they cannot be modified.
   * Mutable variables must be denoted by the keyword `mut`.
 
