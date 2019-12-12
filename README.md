@@ -19,8 +19,8 @@ This project was created to learn V lang basics, as well as common use cases sim
 * [ ] Leverage vpm package manager for 3rd party packages.
 * [ ] Read from environmental variables.
 * [ ] Read from a file in a local directory.
-* [ ] Create a basic DTO (data transfer object).
-* [ ] Marshal and unmarshal DTO to string and V struct.
+* [x] Create a basic DTO (data transfer object).
+* [x] Marshal and unmarshal DTO to string and V struct.
 * [ ] Expose REST endpoints for experiment application.
 * [ ] Create a service description for my RESt endpoints, following the HATEOAS model.
 * [ ] Handle multiple different HTTP verbs.
@@ -46,6 +46,8 @@ This project was created to learn V lang basics, as well as common use cases sim
   * Unfortunately, maps are restricted to a single node type they're inferred by.
 * Variables are immutable by default, once inferred they cannot be modified.
   * Mutable variables must be denoted by the keyword `mut`.
+* V does not support interfaces like Go, but provides implict structures.
+* The language ships with it's own linter similar to prettier (see build steps), as well as unit testing utilities.
 
 # Closing Thoughts
 
