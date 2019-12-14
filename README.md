@@ -48,6 +48,9 @@ This project was created to learn V lang basics, as well as common use cases sim
   * Mutable variables must be denoted by the keyword `mut`.
 * V does not support interfaces like Go, but provides implict structures.
 * The language ships with it's own linter similar to prettier (see build steps), as well as unit testing utilities.
+* Documentation for v is very lacking, not many resources are available (as of 12/12/19).
+  * None of the standard library is covered explicitly in the official docs.
+  * I've had to read the std lib modules to learn what's possible, which is rather inconvenient considering I'm learning the language.
 
 # Closing Thoughts
 
