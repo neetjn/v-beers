@@ -17,8 +17,8 @@ This project was created to learn V lang basics, as well as common use cases sim
 
 * [ ] Create a locale package, module, or library and utilize.
 * [ ] Leverage vpm package manager for 3rd party packages.
-* [ ] Read from environmental variables.
-* [ ] Read from a file in a local directory.
+* [X] Read from environmental variables.
+* [X] Read from a file in a local directory.
 * [x] Create a basic DTO (data transfer object).
 * [x] Marshal and unmarshal DTO to string and V struct.
 * [ ] Expose REST endpoints for experiment application.
