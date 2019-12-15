@@ -4,14 +4,14 @@ This project was created to learn V lang basics, as well as common use cases sim
 
 # Practices
 
-* [http.v]() - TBD
-* [structs.v]() - TBD
-* [error.v]() - TBD
-* [io.v]() - TBD
-* [maps.v]() - TBD
-* [array.v]() - TBD
-* [num.v]() - TBD
-* [string.v]() - TBD
+* :star: [http.v](https://github.com/neetjn/v-beers/practice/http.v) - TBD
+* :star: [error.v](https://github.com/neetjn/v-beers/practice/error.v) - Error handling practice, includes a couple of other concepts.
+* [structs.v](https://github.com/neetjn/v-beers/practice/structs.v) - Simple structs exercise, includes JSON encoding/decoding.
+* [io.v](https://github.com/neetjn/v-beers/practice/io.v) - Simple exercises for creating and deleting files + directories, and reading environmental variables.
+* [maps.v](https://github.com/neetjn/v-beers/practice/maps.v) - Simple exercises for maps.
+* [array.v](https://github.com/neetjn/v-beers/practice/array.v) - Simple exercises for arrays.
+* [num.v](https://github.com/neetjn/v-beers/practice/num.v) - Simple arithmetic using vlang, solving a euler problem.
+* [string.v](https://github.com/neetjn/v-beers/practice/string.v) - Simple exercises for strings.
 
 # Experiments
 
