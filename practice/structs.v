@@ -14,7 +14,7 @@ mut:
 }
 
 // pure functions for structs take the struct as the first arg
-fn greet(p Person) string {
+fn (p Person) greeting() string {
   return 'Hello $p.name!'
 }
 
@@ -25,7 +25,6 @@ struct Item {
 }
 
 fn main() {
-  // TODO: implement match statement, create struct instance
   // create an immutable struct instance
   user := User{
     username: 'jnolette'
@@ -41,8 +40,8 @@ fn main() {
   }
   new_user.name = 'Nolette'
   assert new_user.name == 'Nolette'
-  // TODO: fix pure function
-  /* assert new_user.greet() == 'Hello Nolette' */
+  println(new_user.greeting())
+  assert new_user.greeting() == 'Hello Nolette!'
   // serialize and deserialize json
   data := '{"name":"plunger","code":"80A121","productType":"bathroom"}'
   item := json.decode(Item, data) or {
