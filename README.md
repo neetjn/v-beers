@@ -34,6 +34,7 @@ This project was created to learn V lang basics, as well as common use cases sim
 * V is a very new language, new features are being implemented every week.
   * Equality checks for Arrays are still not yet implemented (as of 12/8/19).
   * Maps only currently support string keys.
+* V's compiler is incredibly fast, and can be used for prototyping or proof of concept. However the language essentially transpiles down into c, and gcc should be used in production.
 * It's similar to Go and is also influenced by Oberon, Rust, Swift.
 * V is a compiled language, that compiles down into byte code so it can run on any machine.
 * Not garbage collected, similar to Rust memory must be managed at compile time.
