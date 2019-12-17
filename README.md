@@ -4,7 +4,7 @@ This project was created to learn V lang basics, as well as common use cases sim
 
 # Practices
 
-* :star: [http.v](https://github.com/neetjn/v-beers/blob/master/practices/http.v) - TBD
+* :star: [http.v](https://github.com/neetjn/v-beers/blob/master/practice/http.v) - HTTP client for SWAPI (star wars api).
 * :star: [error.v](https://github.com/neetjn/v-beers/blob/master/practice/error.v) - Error handling practice, includes a couple of other concepts.
 * [structs.v](https://github.com/neetjn/v-beers/blob/master/practice/structs.v) - Simple structs exercise, includes JSON encoding/decoding.
 * [io.v](https://github.com/neetjn/v-beers/blob/master/practice/io.v) - Simple exercises for creating and deleting files + directories, and reading environmental variables.
