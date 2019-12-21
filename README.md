@@ -15,6 +15,8 @@ This project was created to learn V lang basics, as well as common use cases sim
 
 # Experiments
 
+> Could not complete, many documented features and modules in the standard library are currently unavailable (2/21/19).
+
 * [ ] Create a locale package, module, or library and utilize.
 * [ ] Leverage vpm package manager for 3rd party packages.
 * [X] Read from environmental variables.
@@ -55,10 +57,15 @@ This project was created to learn V lang basics, as well as common use cases sim
   * I've had to read the std lib modules to learn what's possible, which is rather inconvenient considering I'm learning the language.
 * V ships with it's own ORM for Postgres in the standard library, with plans to support SQLite and MySQL in the future.
   * Re: [v-lang orm](https://vlang.io/docs#orm)
+* Because v is preprocessed into c at compile time, interop with C is incredibly easy and seamless.
 
 # Closing Thoughts
 
-TBD
+* V is an incredibly immature programming language with some boastful capability and performance benchmarks to boot.
+* A market for v developers does not exist, as it stands the language may never reach maturity.
+  * Support was high when the language was announced, but the language's author has failed to hit his promised performance targets multiple times.
+* Even in it's infancy, v can be a very productive language. However, at the time of writing this (12/21/19) many modules in the std aren't available or were misdocumented in the official documentation. This is understandable for such a new language, but I wouldn't personally use V until it's been proofed for production.
+* Ecosystem is manageable. The official package manager is baked in with the `v` binary, it's fairly simple to use but is missing some pretty big features that tend to be expected in modern package managers (package config, lock files, versioning).
 
 # Resources
 
