@@ -50,7 +50,8 @@ This project was created to learn V lang basics, as well as common use cases sim
 * V does not support interfaces like Go, but provides implict structures.
 * The language ships with it's own linter similar to prettier (see build steps), as well as unit testing utilities.
 * Documentation for v is very lacking, not many resources are available (as of 12/12/19).
-  * None of the standard library is covered explicitly in the official docs.
+  * ~~None of the standard library is covered explicitly in the official docs.~~
+    * The standard library is covered [here](https://vlang.io/modules) but does not include db related modules.
   * I've had to read the std lib modules to learn what's possible, which is rather inconvenient considering I'm learning the language.
 * V ships with it's own ORM for Postgres in the standard library, with plans to support SQLite and MySQL in the future.
   * Re: [v-lang orm](https://vlang.io/docs#orm)

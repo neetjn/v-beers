@@ -1,6 +1,4 @@
-module db
-import mysql
-import constants
+module beers
 
 struct Beer {
   id int
@@ -10,3 +8,4 @@ struct Beer {
   alcohol f32
   ibu int
 }
+
